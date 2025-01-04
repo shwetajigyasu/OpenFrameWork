@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-03T10:22:34 IST" name="Suite" finished-at="2025-01-03T10:22:55 IST" duration-ms="21180">
+    <groups>
+      <group name="Master">
+        <method signature="TestCaseLogin.TC_002_LoginTestCase()[pri:0, instance:testCases.TestCaseLogin@5505ae1a]" name="TC_002_LoginTestCase" class="testCases.TestCaseLogin"/>
+        <method signature="TestCaseRegister.Tc_001RegisterUser()[pri:0, instance:testCases.TestCaseRegister@7efaad5a]" name="Tc_001RegisterUser" class="testCases.TestCaseRegister"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TestCaseRegister.Tc_001RegisterUser()[pri:0, instance:testCases.TestCaseRegister@7efaad5a]" name="Tc_001RegisterUser" class="testCases.TestCaseRegister"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TestCaseLogin.TC_002_LoginTestCase()[pri:0, instance:testCases.TestCaseLogin@5505ae1a]" name="TC_002_LoginTestCase" class="testCases.TestCaseLogin"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-01-03T10:22:34 IST" name="Test" finished-at="2025-01-03T10:22:55 IST" duration-ms="21180">
+      <class name="testCases.TestCaseLogin">
+        <test-method is-config="true" signature="setUP(java.lang.String,java.lang.String)[pri:0, instance:testCases.TestCaseLogin@5505ae1a]" started-at="2025-01-03T10:22:48 IST" name="setUP" finished-at="2025-01-03T10:22:52 IST" duration-ms="4406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="TC_002_LoginTestCase()[pri:0, instance:testCases.TestCaseLogin@5505ae1a]" started-at="2025-01-03T10:22:52 IST" name="TC_002_LoginTestCase" finished-at="2025-01-03T10:22:55 IST" duration-ms="2527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002_LoginTestCase -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:testCases.TestCaseLogin@5505ae1a]" started-at="2025-01-03T10:22:55 IST" name="tear" finished-at="2025-01-03T10:22:55 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- testCases.TestCaseLogin -->
+      <class name="testCases.TestCaseRegister">
+        <test-method is-config="true" signature="setUP(java.lang.String,java.lang.String)[pri:0, instance:testCases.TestCaseRegister@7efaad5a]" started-at="2025-01-03T10:22:34 IST" name="setUP" finished-at="2025-01-03T10:22:43 IST" duration-ms="8540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="Tc_001RegisterUser()[pri:0, instance:testCases.TestCaseRegister@7efaad5a]" started-at="2025-01-03T10:22:43 IST" name="Tc_001RegisterUser" finished-at="2025-01-03T10:22:47 IST" duration-ms="4567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_001RegisterUser -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:testCases.TestCaseRegister@7efaad5a]" started-at="2025-01-03T10:22:47 IST" name="tear" finished-at="2025-01-03T10:22:48 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- testCases.TestCaseRegister -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

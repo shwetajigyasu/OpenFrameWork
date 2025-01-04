@@ -1,0 +1,8 @@
+2025-01-03 10:22:43,132 INFO t.TestCaseRegister [main] ***** TestCaseRegister testcase has stated *****
+2025-01-03 10:22:43,383 INFO t.TestCaseRegister [main] Clicked on My Account Link
+2025-01-03 10:22:44,291 INFO t.TestCaseRegister [main] Clicked on My Register Link
+2025-01-03 10:22:44,291 INFO t.TestCaseRegister [main] Providing user details
+2025-01-03 10:22:47,668 INFO t.TestCaseRegister [main] Validating expected message
+2025-01-03 10:22:47,668 INFO t.TestCaseRegister [main] ***** TestCaseRegister testcase has finished *****
+2025-01-03 10:22:52,526 INFO t.TestCaseLogin [main] ***** TestCaseRegister testcase has stated *****
+2025-01-03 10:22:55,051 INFO t.TestCaseLogin [main] ***** TestCaseRegister testcase has finished *****
